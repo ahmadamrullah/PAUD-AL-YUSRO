@@ -1,0 +1,478 @@
+.header img {
+    width: 50px !important;
+    float: left;
+    margin-right: 10px;
+}
+.header p {
+    color: whitesmoke;
+    font-size: 17px;
+}
+.navbar {
+    background-color: blueviolet;
+}
+.navbar-nav, .nav-item a {
+    color:white !important;
+    font-family:sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+}
+.navbar-nav, .nav-item a:hover {
+    color: chocolate !important;
+}
+.dropdown-menu {
+    background-color: gold !important;
+}
+
+/* carousel-inner */
+.carousel-inner img {
+    object-fit: cover;
+    width: max-content;
+    height: 500px;
+    margin-bottom: 5% !important;
+}
+.carousel-caption {
+    bottom: 250px !important;
+}
+.carousel-caption h5 {
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.carousel-caption p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* section 1 */
+.section-1 {
+    min-height: 400px;
+    margin-top: 5% !important;
+    padding-bottom: 100px;
+    margin-bottom: 3%;
+}
+.sambutan {
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
+}
+.sambutan img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sambutan h2 {
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.sambutan p {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+/* section 2 */
+.section-2 {
+    min-height: 500px;
+    margin-bottom: 50px;
+}
+
+.section-2 h3 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: Roboto;
+    font-weight: bold;
+}
+.motto, .card{
+    margin-bottom: 20px;
+}
+.motto img {
+    object-fit: fill;
+    height: 70px;
+}
+.motto h6 {
+    text-align: center;
+    font-size: 17pt;
+    color: green;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    font-family: Roboto;
+}
+
+.motto p {
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 13pt;
+    text-align: center;
+}
+
+/* section 3 */
+.section-3 {
+    background-color: lightgray;
+    min-height: 300px;
+    margin-top: 7%;
+}
+.ruangan, .card {
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+.ruangan img {
+    object-fit: fill;
+    height: 70px;
+}
+.ruangan p {
+    text-align: center;
+    font-family: "Times New Roman";
+    font-size: 25px;
+}
+.ruangan h6 {
+    text-align: center;
+    font-size: 15pt;
+    color: green;
+    margin-top: 17px;
+    margin-bottom: 15px;
+    font-family: Roboto;
+}
+
+/* section 4 */
+.blog h2 {
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-align: center;
+    
+}
+
+.blog .figure img {
+    width: 500px;
+    height: 280px;
+}
+
+
+.blog .figure h5 a {
+    color: black;
+    text-decoration: none;
+}
+
+.blog .figure h5 a:hover {
+    color: orange;
+}
+.blog .figure p {
+    text-align: justify;
+    font-family: Roboto;
+    font-size: 13pt;
+}
+
+/* section 5 */
+.section-5 {
+    min-height: 400px;
+    padding-bottom: 100px;
+    background-color: #cce3ff;
+    margin-top: 5%;
+}
+.section-5 h3 {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Times New Roman";
+}
+
+.kata_mereka img {
+    object-fit: fill;
+    height: 100px;
+    width: 100px;
+}
+.kata_mereka p {
+    text-align: justify;
+    font-family: sans-serif;
+    font-style: italic;
+}
+.kata_mereka h5 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Roboto;
+}
+
+
+/* next page navbar */
+.jumbotron {
+    background-image: url('../img/slider/bg.jpg');
+    background-size: cover;
+    margin-top: 11%;
+    object-fit: cover;
+    min-height: max-content;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+
+/* section detail sambutan */
+.section-detail-sambutan {
+    margin-top: 7% !important;
+    margin-bottom: 5%;
+}
+.detail-sambutan {
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+.detail-sambutan h4 {
+    font-family: sans-serif;
+    margin-top: 18% !important;
+}
+.detail-sambutan ul li {
+    margin-top: 12px;
+}
+.detail-sambutan ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 18px;
+}
+.detail-sambutan ul li a:hover {
+    color: darkorange;
+}
+.detail-sambutan h3 {
+    margin-top: 27px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.detail-sambutan p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* section visi & misi */
+.section-visi_misi {
+    min-height: 500px;
+    margin-top: 5%;
+}
+.visi_misi {
+    box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* section-struktur_organ */
+.section-struktur_organ {
+    min-height: 500px;
+    margin-top: 5%;
+}
+.struktur img {
+    object-fit: contain;
+    width: 80%;
+    margin-top: 50px;
+}
+
+/* artikel next page */
+.section-artikel {
+    margin-top: 7%;
+}
+.section-artikel h3 {
+    font-family: "Roboto";
+}
+
+.artikel img {
+    object-fit: cover;
+    width: 500px;
+    height: 200px;
+}
+.artikel h4 a{
+    color: black;
+    font-family: "Times New Roman";
+    text-decoration: none;
+}
+.artikel h4 a:hover {
+    color: coral;
+}
+.artikel p {
+    text-align: justify;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+.artikel small {
+    color: gray;
+}
+
+/* sisi kanan artikel */
+.sisi-kanan img {
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+}
+.sisi-kanan p {
+    text-align: justify;
+    font-family: "Roboto";
+}
+
+/* artikel terkait */
+.artikel-terkait h3 {
+    background-color: orangered;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    height: 50px;
+    margin-top: 20px;
+    padding-top: 9px;
+    color: white;
+    font-weight: bold;
+    font-family: "Sanserif";
+    font-size: 22px;
+}
+.artikel-terkait img {
+    width: 100px;
+    height: 60px;
+    margin-left: 20px;
+}
+.artikel-terkait h6 a {
+    color: black;
+    text-decoration: none;
+}
+.artikel-terkait h6 a:hover {
+    color: chocolate;
+}
+
+/* section detail artikel */
+.section-detail-artikel {
+    margin-top: 5%;
+}
+.single-image img {
+    object-fit: cover;
+    width: 1204px;
+    height: 400px;
+    margin-bottom: 30px;
+}
+.single-text p {
+    text-align: justify;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.guru img {
+    object-fit: cover;
+    height: 300px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.guru h5 {
+    text-align: center;
+}
+.guru p {
+    font-size: 15px;
+    text-align: center;
+    color: black;
+}
+
+/* tentang kami */
+.single-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.single-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.tentang_kami p {
+    font-size: 20px;
+    font-family: "monoscape";
+}
+
+.form-group label {
+    font-family: "Roboto";
+    font-size: 20px;
+}
+.form-group button {
+    font-family: "Roboto";
+    font-weight: bold;   
+}
+
+
+/* footer */
+footer {
+    margin-top: 100px;
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+.footer h4 {
+    color: white;
+    margin-top: 30px;
+    font-weight: 200;
+}
+.footer .social-media li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer p {
+    color: white;
+    text-align: justify;
+}
+
+.footer ul li {
+    color: white;
+}
+
+.footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: salmon;
+}
+
+.akhir {
+    background-color: black;
+}
+
+.akhir p {
+    color: white;
+    padding-top: 10px;
+}
+
+/* akhir footer */
+
+
+/* versi desktop */
+@media (min-width: 992px) {
+
+    .jumbotron {
+        background-image: url('../img/slider/bg.jpg');
+        background-size: cover;
+        margin-top: 5%;
+    }
+    
+    .jumbotron .display-4 {
+        color: white;
+        text-align: center;
+        font-size: 35px;
+        font-weight: bold;
+    }
+   
+    /* blog */
+    .blog .figure img {
+        width: 300px;
+        height: 200px;
+    }
+    /* akhir blog */
+
+    /* artikel next page */
+    .artikel img {
+        width: 300px;
+        height: 200px;
+    }
+    
+}
